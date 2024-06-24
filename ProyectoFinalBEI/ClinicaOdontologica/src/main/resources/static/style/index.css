@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    font-size: 22px;
+    overflow: y-scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+    background-image: url(/img/background.jpg);
+    background-repeat: repeat;
+}
+
+.main_content h3 {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 30px;
+    color: #333;
+}
+
+.form_agregar{
+    background-color: #ffcc00;
+    padding: 50px;
+    border-radius: 20px;
+    width: 40vw;
+    color: #333;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 60vw;
+    border-radius: 20px;
+    padding: 30px;
+    color: #333;
+}
+
+.menu_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    background-color: #ffcc00;
+    border-radius: 20px;
+    height: 30vh;
+    width: 50vh;
+    color: #333;
+}
+
+.menu_2 a {
+    font-size: 30px;
+    color: #333;
+}
+
+.bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_pagina {
+    color: #5f9ea0;
+    text-align: center;
+}
+
+.subtitulo_principal {
+    text-align: center;
+}
+
+#div_odontologo_table, #div_turno_table, #div_paciente_table {
+    background-color: #5f9ea0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60vw;
+    color: #fff;
+}
+
+#odontologoTable {
+    width: 100%;
+    color: #333;
+}
